@@ -14,10 +14,50 @@
         <p>Пароль:</p>
         <input type="password" name="password" value="">
         <p>Число:</p>
-        <input type="number" name="number" value="">
+        <input type="number" name="age" value="">
         <input type="phone" name="telephone">
         <br><br>
         <button type="submit">Отправить на сервер</button>
     </form>
+
+    <form>
+        <h2>Сеансы</h2>
+        <p>Кинотеатр:</p>
+        <input type="text" name="cinema" placeholder="Введите название кинотеатра" required>
+        <p>Фильмы:</p>
+        <input type="text" name="film" placeholder="Введите название фильма" required>
+        <p>Время:</p>
+        <input type="time" name="time" required>
+        <p>Стоимость:</p>
+        <input type="number" name="price" placeholder="Введите Стоимость фильма" required>
+        <br><br>
+        <button type="submit">Отправить данные о фильме</button><br><br>
+        <button type="reset">Очистить данные</button><br><br>
+        <button type="button">Обычная кнопка</button>
+    </form>
+    <form>
+        <h2>Какие ваши любимые цвета?</h2>
+        <label><input type="checkbox" name="color" value="yellow">Желтый</label>
+        <br>
+        <label><input type="checkbox" name="color" value="red" disabled>Красный</label>
+        <br>
+        <label><input type="checkbox" name="color" value="black" autofocus>Черный</label>
+        <br>
+        <button type="submit">Отправить цвет</button>
+    </form>
+    <form>
+        <h2>Город в котором я живу</h2>
+        <label>
+            <input type="radio" name="city" value="Tuymen">Тюмень
+        </label><br>
+        <label><input type="radio" name="city" value="Ekb">Екатеринбург</label><br>
+        <label><input type="radio" name="cyty" value="Moscow">Москва</label><br>
+        <button type="submit">Отправить город</button>
+
+    </form>
+<input type="range">
+<input type="color">
+<input type="file">
+
 </body>
 </html>
